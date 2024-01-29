@@ -34,13 +34,16 @@ void binary_tree_print(const binary_tree_t *);
 /* task 0. New node */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
-/* task 1. Insert left*/
+/* task 1. Insert left */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
-/* task 2. Insert right*/
+/* task 2. Insert right */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
-/* task 3. Delete*/
+/* task 3. Delete */
 void binary_tree_delete(binary_tree_t *tree);
+
+/* task 4. Is leaf */
+int binary_tree_is_leaf(const binary_tree_t *node);
 
 #endif /* _BINARY_TREES_H_ */
