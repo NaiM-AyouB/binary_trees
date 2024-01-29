@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "../0-binary_tree_node.c"
+#include "../binary_trees.h"
+#include "../2-binary_tree_insert_right.c"
 #include "../binary_tree_print.c"
 
 /**
