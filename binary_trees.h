@@ -37,4 +37,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /* task 1.  Insert left*/
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+/* task 2.  Insert right*/
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
 #endif /* _BINARY_TREES_H_ */
