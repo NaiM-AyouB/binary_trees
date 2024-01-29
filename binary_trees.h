@@ -46,4 +46,7 @@ void binary_tree_delete(binary_tree_t *tree);
 /* task 4. Is leaf */
 int binary_tree_is_leaf(const binary_tree_t *node);
 
+/* task 5. Is root */
+int binary_tree_is_root(const binary_tree_t *node);
+
 #endif /* _BINARY_TREES_H_ */
