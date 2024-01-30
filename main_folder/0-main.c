@@ -1,7 +1,7 @@
-#include "../binary_trees.h"
 #include <stdlib.h>
-#include "../0-binary_tree_node.c"
+#include "../binary_trees.h"
 #include "../binary_tree_print.c"
+#include "../0-binary_tree_node.c"
 
 /**
  * main - Entry point

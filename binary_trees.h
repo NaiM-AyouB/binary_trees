@@ -34,16 +34,28 @@ void binary_tree_print(const binary_tree_t *);
 /* task 0. New node */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
-/* task 1. Insert left*/
+/* task 1. Insert left */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
-/* task 2. Insert right*/
+/* task 2. Insert right */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
-/* task 3. Delete*/
+/* task 3. Delete */
 void binary_tree_delete(binary_tree_t *tree);
+
+/* task 4. Is leaf */
+int binary_tree_is_leaf(const binary_tree_t *node);
+
+/* task 5. Is root */
+int binary_tree_is_root(const binary_tree_t *node);
 
 /* task 6. Pre-order traversal*/
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+
+/* task 7. In-order traversal */
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+
+/* task 8. Post-order traversal */
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
 
 #endif /* _BINARY_TREES_H_ */
