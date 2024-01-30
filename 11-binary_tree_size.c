@@ -2,24 +2,24 @@
 
 /**
  * binary_tree_size - function that measures the size of a binary tree.
- * @tree: pointer to the node to measure the depth.
+ * @tree: pointer to the node.
  * Return: the size of a binary tree.
  */
 
 size_t binary_tree_size(const binary_tree_t *tree)
 {
-	size_t depth;
+	size_t size;
 
 	if (tree == NULL)
 		return (0);
 
-	depth = 1;
+	size = 1;
 
 	if (tree->right != NULL)
-		depth += binary_tree_size(tree->right);
+		size += binary_tree_size(tree->right);
 
 	if (tree->left != NULL)
-		depth += binary_tree_size(tree->left);
+		size += binary_tree_size(tree->left);
 
-	return (depth);
+	return (size);
 }
