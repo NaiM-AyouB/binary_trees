@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_leaves - function that counts the leaves in a binary tree.
- * @tree: pointer to the node to measure the depth.
+ * @tree: pointer to the node.
  * Return: the number of leaves.
  */
 
