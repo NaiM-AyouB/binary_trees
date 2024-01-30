@@ -43,4 +43,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 /* task 3. Delete*/
 void binary_tree_delete(binary_tree_t *tree);
 
+/* task 6. Pre-order traversal*/
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+
 #endif /* _BINARY_TREES_H_ */
