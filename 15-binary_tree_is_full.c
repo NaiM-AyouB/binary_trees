@@ -1,4 +1,5 @@
 #include "binary_trees.h"
+#include "4-binary_tree_is_leaf.c"
 
 /**
  * binary_tree_is_full - function that checks if a binary tree is full.
