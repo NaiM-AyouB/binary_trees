@@ -4,7 +4,6 @@
 #include "../binary_tree_print.c"
 #include "../0-binary_tree_node.c"
 #include "../2-binary_tree_insert_right.c"
-#include "../4-binary_tree_is_leaf.c"
 #include "../15-binary_tree_is_full.c"
 
 /**
