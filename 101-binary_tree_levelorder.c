@@ -8,7 +8,8 @@
  * @level: int to the target level.
  */
 
-void binary_tree_specific_level(const binary_tree_t *tree, void (*func)(int), int level)
+void binary_tree_specific_level(const binary_tree_t *tree,
+								void (*func)(int), int level)
 {
 	if (tree != NULL)
 	{
