@@ -24,7 +24,7 @@ void binary_tree_specific_level(const binary_tree_t *tree,
 }
 
 /**
- * binary_tree_preorder - function that goes
+ * binary_tree_levelorder - function that goes
  * through a binary tree using level-order traversal.
  * @tree: a pointer to the root node of the tree to traverse.
  * @func: a pointer to a function to call for each node.
