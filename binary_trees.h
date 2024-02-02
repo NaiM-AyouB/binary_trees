@@ -95,4 +95,7 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tr
 /* task 20. Level-order traversal */
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 
+/* task 22. Rotate left */
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+
 #endif /* _BINARY_TREES_H_ */
